@@ -6,7 +6,7 @@ entries:
     description: Deploy any container in Okteto
     digest: 343c4095de92eb1a3542a6ded94242eaa5af2ee11b31de00057efeaf56c6abf8
     home: https://github.com/rberrelleza/byoc
-    icon: https://github.com/rberrelleza/byoc/blob/master/icon.png
+    icon: https://raw.githubusercontent.com/rberrelleza/byoc/master/icon.png
     keywords:
     - app
     - container
