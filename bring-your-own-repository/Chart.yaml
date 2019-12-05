@@ -1,0 +1,16 @@
+apiVersion: v2
+name: bring-your-own-repository
+description: Deploy any Dockerfile in Okteto, no build required
+type: application
+version: 0.1.0
+icon: https://raw.githubusercontent.com/rberrelleza/byoc/master/icon.png
+keywords:
+- app
+- container
+- docker
+home: https://github.com/rberrelleza/byoc
+maintainers:
+- name: Ramiro Berrelleza
+  email: rberrelleza@gmail.com
+engine: gotpl
+

@@ -1,0 +1,13 @@
+# Run any Dockerfile directly in Okteto, no build required.
+# Automatic build, powered by https://ctr.run
+replicaCount: 1
+
+repository: github.com/rberrelleza/todomvc/examples/react
+
+branch: master
+
+service:
+  port: 8080
+
+deployment:
+  port: 8080

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "bring-your-own-repository.fullname" . }}
+  annotations:
+    dev.okteto.com/auto-ingress: "true"
+  labels:
+    {{- include "bring-your-own-repository.labels" . | nindent 4 }}
+spec:
+  type: ClusterIP
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "bring-your-own-repository.selectorLabels" . | nindent 4 }}
