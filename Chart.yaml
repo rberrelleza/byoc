@@ -1,0 +1,7 @@
+apiVersion: v2
+name: byoc
+description: Deploy any container in Okteto
+type: application
+version: 0.1.0
+icon: https://github.com/rberrelleza/byoc/blob/master/icon.png
+

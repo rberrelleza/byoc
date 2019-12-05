@@ -1,0 +1,13 @@
+# Run any container directly in Okteto.
+
+replicaCount: 1
+
+image:
+  repository: ramiro/todo
+  tag: master
+
+service:
+  port: 8080
+
+deployment:
+  port: 8080
