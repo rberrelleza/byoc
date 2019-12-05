@@ -1,4 +1,4 @@
-# Run any container directly in Okteto, no build required.
+# Run any repository directly in Okteto, no docker build required.
 # Automatic build, powered by https://ctr.run
 
 replicaCount: 1

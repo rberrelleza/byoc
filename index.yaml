@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   bring-your-own-container:
   - apiVersion: v2
-    created: "2019-12-05T16:27:22.079719+01:00"
+    created: "2019-12-05T16:44:47.626028+01:00"
     description: Deploy any container in Okteto
-    digest: 73f82338bc096bd2fa1ca934c8f6432ba4481bd60764f355ed83cf2951a64840
+    digest: 273fd4a6dac165b4a4a0fdc00489a188a7c001a417173d30066ae24216367435
     home: https://github.com/rberrelleza/byoc
     icon: https://raw.githubusercontent.com/rberrelleza/byoc/master/icon.png
     keywords:
@@ -21,9 +21,9 @@ entries:
     version: 0.1.0
   bring-your-own-repository:
   - apiVersion: v2
-    created: "2019-12-05T16:27:22.080119+01:00"
+    created: "2019-12-05T16:44:47.626485+01:00"
     description: Deploy any Dockerfile in Okteto, no build required
-    digest: c48b0066bff03c9c3d7f6bedd8f18d4441f25f6a1368eb273ab7d15d4d95ffd5
+    digest: 4f6f0b32883bdc10a000adffac68391fc8b4db6b3bdcbd3bcc9be70b0e41194f
     home: https://github.com/rberrelleza/byoc
     icon: https://raw.githubusercontent.com/rberrelleza/byoc/master/icon.png
     keywords:
@@ -38,4 +38,4 @@ entries:
     urls:
     - https://rberrelleza.github.io/byoc/bring-your-own-repository-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-05T16:27:22.076412+01:00"
+generated: "2019-12-05T16:44:47.625132+01:00"
