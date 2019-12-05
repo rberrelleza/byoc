@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   byoc:
   - apiVersion: v2
-    created: "2019-12-05T15:59:11.481427+01:00"
+    created: "2019-12-05T16:03:56.891322+01:00"
     description: Deploy any container in Okteto
     digest: 343c4095de92eb1a3542a6ded94242eaa5af2ee11b31de00057efeaf56c6abf8
     home: https://github.com/rberrelleza/byoc
@@ -14,9 +14,9 @@ entries:
     maintainers:
     - email: rberrelleza@gmail.com
       name: Ramiro Berrelleza
-    name: byoc
+    name: bring-your-own-container
     type: application
     urls:
-    - https://rberrelleza.github.io/byoc/byoc/byoc-0.1.0.tgz
+    - https://rberrelleza.github.io/byoc/bring-your-own-container/byoc-0.1.0.tgz
     version: 0.1.0
-generated: "2019-12-05T15:59:11.480633+01:00"
+generated: "2019-12-05T16:03:56.888624+01:00"

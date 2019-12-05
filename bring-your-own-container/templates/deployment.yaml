@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "byoc.fullname" . }}
+  name: {{ include "bring-your-own-container.fullname" . }}
   labels:
-    {{- include "byoc.labels" . | nindent 4 }}
+    {{- include "bring-your-own-container.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "byoc.selectorLabels" . | nindent 6 }}
+      {{- include "bring-your-own-container.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "byoc.selectorLabels" . | nindent 8 }}
+        {{- include "bring-your-own-container.selectorLabels" . | nindent 8 }}
     spec:
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
